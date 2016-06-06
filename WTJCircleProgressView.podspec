@@ -116,8 +116,8 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = UIKit
-  # s.frameworks = QuartzCore,UIKit,CoreGraphics,Foundation 
+  # s.framework  = 'UIKit'
+  # s.frameworks = 'QuartzCore','UIKit','CoreGraphics','Foundation' 
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
