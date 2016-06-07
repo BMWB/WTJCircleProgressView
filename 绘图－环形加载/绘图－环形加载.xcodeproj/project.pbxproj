@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5035EDBF1D06C19200F80058 /* CABasicAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5035EDBE1D06C19200F80058 /* CABasicAnimationView.m */; };
+		5035EDC51D06C27F00F80058 /* CABasicAnimation+WTJCATranslation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5035EDC41D06C27F00F80058 /* CABasicAnimation+WTJCATranslation.m */; };
 		5070B38B1D0559A400770EED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5070B38A1D0559A400770EED /* main.m */; };
 		5070B38E1D0559A400770EED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5070B38D1D0559A400770EED /* AppDelegate.m */; };
 		5070B3911D0559A400770EED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5070B3901D0559A400770EED /* ViewController.m */; };
@@ -18,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5035EDBD1D06C19200F80058 /* CABasicAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABasicAnimationView.h; sourceTree = "<group>"; };
+		5035EDBE1D06C19200F80058 /* CABasicAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CABasicAnimationView.m; sourceTree = "<group>"; };
+		5035EDC31D06C27F00F80058 /* CABasicAnimation+WTJCATranslation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CABasicAnimation+WTJCATranslation.h"; path = "../../CABasicAnimation+WTJCATranslation.h"; sourceTree = "<group>"; };
+		5035EDC41D06C27F00F80058 /* CABasicAnimation+WTJCATranslation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CABasicAnimation+WTJCATranslation.m"; path = "../../CABasicAnimation+WTJCATranslation.m"; sourceTree = "<group>"; };
 		5070B3861D0559A400770EED /* 绘图－环形加载.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "绘图－环形加载.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5070B38A1D0559A400770EED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5070B38C1D0559A400770EED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,6 +51,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5035EDBC1D06C14E00F80058 /* CABasicAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				5035EDC31D06C27F00F80058 /* CABasicAnimation+WTJCATranslation.h */,
+				5035EDC41D06C27F00F80058 /* CABasicAnimation+WTJCATranslation.m */,
+				5035EDBD1D06C19200F80058 /* CABasicAnimationView.h */,
+				5035EDBE1D06C19200F80058 /* CABasicAnimationView.m */,
+			);
+			path = CABasicAnimation;
+			sourceTree = "<group>";
+		};
 		5070B37D1D0559A400770EED = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +81,7 @@
 		5070B3881D0559A400770EED /* 绘图－环形加载 */ = {
 			isa = PBXGroup;
 			children = (
+				5035EDBC1D06C14E00F80058 /* CABasicAnimation */,
 				50FF02671D056DF6003D149C /* WTJCircle */,
 				5070B38C1D0559A400770EED /* AppDelegate.h */,
 				5070B38D1D0559A400770EED /* AppDelegate.m */,
@@ -169,9 +187,11 @@
 			files = (
 				5070B3911D0559A400770EED /* ViewController.m in Sources */,
 				50FF026C1D056DF6003D149C /* UIBezierPath+WTJBezierPath.m in Sources */,
+				5035EDBF1D06C19200F80058 /* CABasicAnimationView.m in Sources */,
 				5070B38E1D0559A400770EED /* AppDelegate.m in Sources */,
 				50FF026D1D056DF6003D149C /* WTJCircleProgressView.m in Sources */,
 				5070B38B1D0559A400770EED /* main.m in Sources */,
+				5035EDC51D06C27F00F80058 /* CABasicAnimation+WTJCATranslation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
